@@ -1,19 +1,8 @@
-.head{
-    font-size: 22px;
-    font-family:'Times New Roman', Times, serif;
-    background-color: whitesmoke;
-    display: flex;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    justify-content: flex-end;
-    padding: 15px 30px;
-    width: 95%;
-    height: 30px;
-    gap: 15px;
-    z-index: 1000;
-    }
+* {
+
+    font-family: Arial, sans-serif;
+}
+
 .icon{
     display: flex;
     justify-content: flex-start;
@@ -26,9 +15,27 @@
     width: 50px;
     cursor: pointer;
 }
-* {
-
-    font-family: Arial, sans-serif;
+a{ 
+    color: #a77814;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+a:hover{
+    background-color: #a77814;
+    color: whitesmoke;
+    border-radius: 2px;
+    border-color:wheat;
+    border-style: solid ;
+}
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-size: cover;        /* make image cover the entire div */
+    background-repeat: no-repeat;  /* prevent repeating */
+    background-image: url(background.png);
+    background-attachment: fixed;
 }
 .headpart{
     font-family:'Times New Roman', Times, serif;
@@ -44,17 +51,12 @@
     height: 90px;
     z-index: 1000;
     }
-body {
-    background-image: url(background.png);
-    padding: 20px;
-}
 H1,H3,p{
     text-align: center;
     color:#a77814;
     white-space: nowrap;
 
 }
-
  
 
 .menu {
