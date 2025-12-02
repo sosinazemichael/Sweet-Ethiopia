@@ -1,0 +1,141 @@
+.headpart{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: flex-end;
+    padding: 15px 30px;
+    width: 95%;
+    height: 30px;
+    gap: 15px;
+    z-index: 1000;
+    }
+.icon{
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 15px;
+    position: absolute;
+    left:0;
+    top: 0;
+    bottom: 0;
+    /* height: 30px; */
+    width: 50px;
+    cursor: pointer;
+}
+
+body{
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    background-size: cover;        /* make image cover the entire div */
+    background-repeat: no-repeat;  /* prevent repeating */
+    background-image: url(photo_2025-12-01_12-22-18.jpg);
+    background-attachment: fixed;
+}
+
+a{
+    color: #a77814;
+}
+a:hover{
+    background-color: #a77814;
+    color: whitesmoke;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border-color:rgb(234, 227, 214);
+    border-style: solid ;
+}
+ 
+ 
+
+.a:hover{
+    background-color: #a77814;
+}
+H1,H3,p{
+    text-align: center;
+    color:#a77814;
+}
+H1{
+    font-size: 150px;
+    font-weight: 400;
+}
+h3{
+    font-size: 4em;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.body {
+  animation: slide 10s linear infinite, glow 2s infinite;
+  
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: whitesmoke;
+    z-index: 999;
+    position: relative;
+     
+}
+
+ 
+/* Slide menu */
+.side-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.3s ease;
+    padding-top: 60px;
+    box-shadow: -3px 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.side-menu a {
+    display: block;
+    padding: 18px 25px;
+    font-size: 20px;
+    color: #003322;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+}
+
+.side-menu .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.headpart {
+    display: flex; /* show on big screens */
+    gap: 20px;
+}
+
+ 
+
+
+/* Show hamburger on small screens, hide headpart */
+ 
+
+
+
